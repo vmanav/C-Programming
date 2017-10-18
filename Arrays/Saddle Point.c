@@ -4,12 +4,12 @@ int main()
     int i , j ,s , p ,h=0,k, arr[10][10],n;
     printf("Enter the size of the matrix:- ");
     scanf("\n%d",&n);
-
+    printf("\nEnter values:-");
     for(i=0;i<n;i++)
     {
       for(j=0;j<n;j++)
             {
-                printf("Enter values:-");
+                
                 scanf("\n%d",&arr[i][j]);
             }
     }
