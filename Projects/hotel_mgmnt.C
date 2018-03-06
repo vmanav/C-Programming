@@ -66,7 +66,7 @@ struct hotel
     }room_ser;       // to store details of room service
     float ser_bill; //Room Service Bill
     float stay_bill;  //Hotel Room Bill
-}obj[10];
+}obj;
 int main()
 {   int i,ch,ch1,ch2;
 
